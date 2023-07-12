@@ -1,7 +1,6 @@
 {
   "scripts": {
-    "start": "platformatic start",
-    "seed": "platformatic db seed seed.js"
+    "start": "platformatic start"
   },
   "devDependencies": {
     "fastify": "^4.19.2"
