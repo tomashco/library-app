@@ -26,6 +26,3 @@ tags
 # clinicjs
 .clinic/
 
-# platformatic cloud
-production.plt.txt
-development.plt.txt
