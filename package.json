@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "platformatic start",
+    "seed": "platformatic db seed seed.js"
+  },
+  "devDependencies": {
+    "fastify": "^4.19.2"
+  },
+  "dependencies": {
+    "@platformatic/sql-graphql": "^0.30.1",
+    "@platformatic/sql-mapper": "^0.30.1",
+    "platformatic": "^0.30.1"
+  },
+  "engines": {
+    "node": "^18.8.0 || >=19"
+  }
+}
