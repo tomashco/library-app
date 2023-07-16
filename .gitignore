@@ -26,3 +26,5 @@ tags
 # clinicjs
 .clinic/
 
+# platformatic plt
+production.plt.txt
