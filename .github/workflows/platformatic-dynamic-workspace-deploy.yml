@@ -11,6 +11,7 @@ jobs:
       contents: read
       pull-requests: write
     runs-on: ubuntu-latest
+    environment: platformatic
     steps:
       - name: Checkout application project repository
         uses: actions/checkout@v3
