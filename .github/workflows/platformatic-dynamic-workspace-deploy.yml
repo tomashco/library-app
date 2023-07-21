@@ -11,7 +11,6 @@ jobs:
       contents: read
       pull-requests: write
     runs-on: ubuntu-latest
-    environment: platformatic
     steps:
       - name: Checkout application project repository
         uses: actions/checkout@v3
@@ -23,5 +22,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           platformatic_workspace_id: ${{ secrets.PLATFORMATIC_DYNAMIC_WORKSPACE_ID }}
           platformatic_workspace_key: ${{ secrets.PLATFORMATIC_DYNAMIC_WORKSPACE_API_KEY }}
-          platformatic_config_path: ./platformatic.service.json
+          platformatic_config_path: ./platformatic.runtime.json
 

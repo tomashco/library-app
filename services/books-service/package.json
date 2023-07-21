@@ -2,7 +2,8 @@
   "scripts": {
     "start": "platformatic start",
     "migrate": "platformatic db migrations apply",
-    "seed": "platformatic db seed seed.js"
+    "seed": "platformatic db seed seed.js",
+    "configure": "cp .env.sample .env"
   },
   "devDependencies": {
     "fastify": "^4.19.2"
